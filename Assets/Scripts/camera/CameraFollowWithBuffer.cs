@@ -46,8 +46,5 @@ public class CameraFollowWithBuffer : MonoBehaviour {
         Gizmos.color = Color.green;
         Gizmos.DrawLine(playerMoveTreshold.position, new Vector2(playerMoveTreshold.position.x, playerMoveTreshold.position.y + 50));
         Gizmos.DrawLine(playerMoveTreshold.position, new Vector2(playerMoveTreshold.position.x, playerMoveTreshold.position.y - 50));
-
-        Gizmos.DrawLine(playerMoveTreshold.position, new Vector2(playerMoveTreshold.position.x, playerMoveTreshold.position.y + 50));
-        Gizmos.DrawLine(playerMoveTreshold.position, new Vector2(playerMoveTreshold.position.x, playerMoveTreshold.position.y - 50));
     }
 }
